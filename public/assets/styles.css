@@ -1,3 +1,100 @@
+html,
+body {
+    font-family: 'Nunito', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
 .navbar {
     background-color:  rgb(200, 233, 235);
+    color: rgb(0, 81, 96);
+}
+
+h1,
+h4 {
+    color: rgb(0, 81, 96);
+}
+
+.btn {
+    background-color: rgb(72, 8, 175);
+}
+
+.save-note {
+    display: none;
+}
+
+.icons i {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.note-textarea,
+.note-title {
+    color: rgb(0, 81, 96);
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.note-textarea::placeholder,
+.note-title::placeholder {
+    color: rgb(0, 81, 96);
+}
+
+.note-title:read-only,
+.note-textarea:read-only {
+    color: rgb(0, 81, 96);
+}
+
+.note-textarea {
+    resize: none;
+    height: calc(100% - 63px);
+    padding-top: 15px;
+}
+
+.note-title {
+    height: 50px;
+    margin-top: 13px;
+    font-size: 3rem;
+}
+
+.list-container .card {
+    height: calc(100vh - 70px);
+    border-bottom: none;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.list-container {
+    padding-left: 0;
+}
+
+.list-container .list-group,
+.list-container .list-group-item:first-child,
+.list-container .card {
+    border-top: none;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.list-item-title {
+    color: rgb(0, 81, 96);
+    display: inline-block;
+    width: 75%;
+}
+
+.list-container i {
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.list-container .list-group-item {
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+    cursor: pointer;
 }
