@@ -1,0 +1,15 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "Note Taker App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alastair Hatfield",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "tailwind": "^4.0.0"
+  }
+}
