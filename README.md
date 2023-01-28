@@ -1,4 +1,6 @@
 # Note Taker App
+  ## Deployed App
+  https://notetakeralastair.herokuapp.com/
   ![indexHtml](./public/assets/noteTakerHtml.jpg)
   ![notesHtml](./public/assets/noteTakerNotes.jpg)
   ## Table of Contents 
