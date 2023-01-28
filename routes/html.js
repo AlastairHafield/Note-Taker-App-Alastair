@@ -1,5 +1,5 @@
 //require express and create a router
-const express = require('express').Router();
+const router = require('express').Router();
 //require path  
 const path = require('path');
 //send notes to the html page   
