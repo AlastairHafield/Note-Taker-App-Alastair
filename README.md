@@ -1,4 +1,6 @@
 # Note Taker App
+  ![indexHtml](./public/assets/noteTakerHtml.jpg)
+  ![notesHtml](./public/assets/noteTakerNotes.jpg)
   ## Table of Contents 
   - [Description](#description)
   - [Installation](#installation)
