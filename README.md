@@ -12,7 +12,7 @@
   - [Additional Info](#additional-info)
   - [Questions and Contribution instructions](#questions-and-contribution-instructions)
   ## Description:
-  This application was created to demonstrate server GET,POST,DELETE requests.
+  This application was created to demonstrate server GET,POST,DELETE requests and to also use data store.
   ## Installation:
   If you would like to clone the code. Please clone, use command npm i, use command npm start to host your own local version.
   ## Usage:
